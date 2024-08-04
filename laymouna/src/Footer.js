@@ -1,11 +1,14 @@
 import React from 'react';
+import './App.css';
+import './styles.css';
 
-function Footer() {
+
+const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 Little Lemon</p>
+      <p>© 2024 Little Lemon. All rights reserved.</p>
     </footer>
   );
-}
+};
 
 export default Footer;

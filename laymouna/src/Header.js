@@ -1,11 +1,15 @@
 import React from 'react';
+import './App.css';
+import './styles.css';
 
-function Header() {
+
+const Header = () => {
   return (
     <header>
-      <img src="Logo.png" alt="Little Lemon Logo" />
+      <img src="/Logo.png" alt="Little Lemon Logo" style={{ height: '50px' }} />
+      <h1>Little Lemon</h1>
     </header>
   );
-}
+};
 
 export default Header;
